@@ -1,0 +1,48 @@
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    transition: 0.3s;
+}
+
+.headerInit{
+    color: white;
+}
+
+.headerChange{
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    transition: 0.3s;
+}
+
+.logo{
+    color: white;
+}
+
+.logoChange{
+    color: gold;
+}
+
+.container{
+    margin: auto;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu ul li{
+    margin-left: 35px;
+    font-size: 17px;
+}
+
+.cart-icon{
+    color: gold;
+}
