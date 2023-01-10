@@ -41,8 +41,48 @@
 .menu ul li{
     margin-left: 35px;
     font-size: 17px;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    transition: 0.2;
+}
+
+.link:hover{
+    color: gold;
+}
+
+.link-change:hover{
+    color: gold;
+}
+
+.link-change{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
 }
 
 .cart-icon{
     color: gold;
+    cursor: pointer;
+}
+
+.cart-icon span{
+    float: right;
+    margin-left: 5px;
+    background-color: black;
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12.5px;
+    margin-bottom: 10px;
+}
+
+.none{
+    display: none;
 }

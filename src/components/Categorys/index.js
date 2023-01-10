@@ -3,7 +3,7 @@ import './style.css'
 const Categorys = () =>{
     return(
         <section id='categorys'>
-            <hr/>
+            <hr className="line"/>
             <h2 className="sub-title">Categorias</h2>
 
             <div className='content-categorys'>

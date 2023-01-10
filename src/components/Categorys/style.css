@@ -2,7 +2,7 @@
     margin-top: 70px;
 }
 
-#categorys hr{
+.line{
     width: 40px;
     margin: auto;
     height: 5px;
@@ -34,6 +34,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .category1{
@@ -56,22 +57,28 @@
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.overlay-cat:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overlay-cat:hover p{
+    font-size: 35px;
 }
 
 .category p{
     color: white;
     font-size: 30px;
-    width: 100%;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.3s;
     cursor: pointer;
-}
-
-.category p:hover{
-    font-size: 35px;
 }

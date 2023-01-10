@@ -35,10 +35,11 @@
 
 .content-hero p{
     font-size: 19px;
+    margin-bottom: 25px;
 }
 
-.content-hero button{
-    margin-top: 20px;
+.content-hero a{
+    text-decoration: none;
     padding: 10px 25px;
     border: none;
     border-radius: 20px;
@@ -47,8 +48,11 @@
     font-weight: bold;
     transition: 0.3s;
     cursor: pointer;
+    color: black;
 }
 
-.content-hero button:hover{
-    transform: scale(1.1);
+.content-hero a:hover{
+    /* transform: scale(1.1); */
+    background-color: black;
+    color: gold;
 }

@@ -1,0 +1,72 @@
+.footer{
+    margin-top: 70px;
+    background-color: gold;
+}
+
+.footer h2{
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.footer hr{
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    background-color: black;
+    height: 2px;
+    border: none;
+}
+
+.icon-footer-title{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.footer-categorys{
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-categorys div ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer-categorys div ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-footer{
+    margin-right: 10px;
+}
+
+.home-footer{
+    text-decoration: none;
+    color: black;
+}
+
+.message-creator{
+    text-align: center;
+    margin-top: 20px;
+    background-color: black;
+    color: gold;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-icon{
+    margin-left: 10px;
+    margin-top: 3px;
+}

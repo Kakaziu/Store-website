@@ -22,7 +22,7 @@
     top: 20%;
     left: 20%;
     z-index: 9999;
-    width: 40%;
+    width: 50%;
     height: 200px;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .content-des button{
-    padding: 10px 20px;
+    padding: 15px 20px;
     border: none;
     border-radius: 20px;
     font-size: 18px;
@@ -55,6 +55,7 @@
     display: flex;
     align-items: center;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 .content-des button:hover{
