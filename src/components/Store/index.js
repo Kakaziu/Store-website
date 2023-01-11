@@ -30,7 +30,7 @@ const Store = () =>{
                                 <span>R${game.price}</span>
                                 <button onClick={() => addProductsInCar(game.id)}>+</button>
                             </div>
-                        </div>
+                        </div> 
                     )
                 })}            
             </div>

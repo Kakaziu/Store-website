@@ -3,6 +3,7 @@
     position: fixed;
     z-index: 9999;
     transition: 0.3s;
+    height: 100px;
 }
 
 .headerInit{
@@ -32,13 +33,13 @@
     padding: 20px;
 }
 
-.menu ul{
+.menu-web{
     display: flex;
     align-items: center;
     list-style: none;
 }
 
-.menu ul li{
+.menu-web li{
     margin-left: 35px;
     font-size: 17px;
     cursor: pointer;
@@ -85,4 +86,96 @@
 
 .none{
     display: none;
+}
+
+.btn-mobile{
+    display: none;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+@media (max-width: 770px) {
+    .menu-web{
+        display: none;
+    }
+
+    .header{
+        background-color: white;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    }
+
+    .logo{
+        color: gold;
+    }
+
+    .btn-mobile{
+        background-color: transparent;
+        border: none;
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu-mobile{
+        position: absolute;
+        top: 100px;
+        left: 0;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+    .menu-mobile li{
+        padding: 25px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .link-mobile{
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .link-mobile:hover{
+        color: gold;
+    }
+
+    .menu-active{
+        animation-name: menuActive;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+    }
+
+    .disable-menu{
+        animation-name: disableMenu;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+    }
+
+    .cart-icon span{
+        background-color: gold;
+        color: black;
+        font-weight: bold;
+    }
+
+    @keyframes menuActive{
+        from { height: 0px; }
+        to { height: 400px; }
+    }
+
+    @keyframes disableMenu{
+        from { height: 400px; }
+        to { height: 0px; }
+    }
+    
 }

@@ -4,7 +4,7 @@ const Categorys = () =>{
     return(
         <section id='categorys'>
             <hr className="line"/>
-            <h2 className="sub-title">Categorias</h2>
+            <h2 className="sub-title">Categorias</h2> 
 
             <div className='content-categorys'>
                 <div className='category category1'>

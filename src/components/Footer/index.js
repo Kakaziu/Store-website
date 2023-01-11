@@ -45,7 +45,7 @@ const Footer = () =>{
                 <IoGameController size='50'/>
 
                 <nav className='menu'>
-                    <ul>
+                    <ul className='menu-web'>
                     <li><a href='/' className='home-footer'>Home</a></li>
                         <li><Link to='categorys' spy={true} smooth={true} duration={300}>Categorias</Link></li>
                         <li><Link to='destaques' spy={true} smooth={true} duration={300}>Destaques</Link></li>

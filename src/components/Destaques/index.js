@@ -8,13 +8,13 @@ import './style.css'
 
 const Destaques = () =>{
 
-    const { gamesDes, addProductsInCar} = useContext(ProductsContext)
+    const { gamesDes, addProductsInCar} = useContext(ProductsContext) 
 
     return(
         <section id="destaques">
            <Swiper pagination={{
             clickable: true
-           }} modules={[Pagination]}>
+           }} modules={[Pagination]}> 
                 { gamesDes.map(game =>{
                     return (
                         <SwiperSlide className='des-game' key={game.id}>

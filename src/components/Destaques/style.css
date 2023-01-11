@@ -42,6 +42,7 @@
 .content-des span{
     font-size: 40px;
     color: gold;
+    font-weight: bold;
 }
 
 .content-des button{
@@ -70,4 +71,67 @@
 
 .swiper-pagination-bullet{
     background-color: white;
+}
+
+@media (max-width: 930px){
+    .content-des{
+        width: 80%;
+        left: 10%;
+    }
+}
+
+@media (max-width: 750px){
+    .des-game img{
+        object-fit: cover;
+        height: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    .content-des{
+        width: 95%;
+        left: 5%;
+    }
+
+    .content-des h2{
+        font-size: 30px;
+    }
+
+    .content-des p{
+        font-size: 16px;
+    }
+
+    .content-des span{
+        font-size: 30px;
+    }
+
+    .content-des button{
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 450px){
+    .content-des{
+        text-align: center;
+        padding: 20px;
+        left: 0;
+    }
+
+    .content-des h2{
+        font-size: 24px;
+    }
+
+    .content-des p{
+        font-size: 15px;
+    }
+
+    .content-des span{
+        font-size: 25px;
+    }
+
+    .content-des button{
+        margin: auto;
+        margin-top: 20px;
+    }
 }

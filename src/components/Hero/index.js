@@ -12,7 +12,7 @@ const Hero = () =>{
                 <Link to='store' spy={true} smooth={true} offset={50} duration={300}>Conferir loja</Link>
             </div>
         </div>
-    )
+    ) 
 }
 
 export default Hero

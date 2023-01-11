@@ -52,7 +52,31 @@
 }
 
 .content-hero a:hover{
-    /* transform: scale(1.1); */
     background-color: black;
     color: gold;
+}
+
+
+@media (max-width: 500px){
+    .content-hero{
+        width: 80%;
+    }
+
+    .content-hero h1{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 350px){
+    .content-hero{
+        width:95%;
+    }
+
+    .content-hero p{
+        font-size: 15px;
+    }
+
+    .content-hero a{
+        font-size: 16px;
+    }
 }
