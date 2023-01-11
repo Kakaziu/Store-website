@@ -145,8 +145,8 @@
 @media (max-width: 500px){
     .cart{
         width: 90%;
-        height: 90vh;
         max-height: 90vh;
+        justify-content: center;
     }
 }
 
